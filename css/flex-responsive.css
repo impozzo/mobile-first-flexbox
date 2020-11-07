@@ -1,0 +1,31 @@
+/* Flex layout mobile first. */
+
+.container{
+    display: flex;
+    background-color: floralwhite;
+    flex-direction: column;
+}
+.flex-item{
+    background-color: goldenrod;
+    margin: 2px;
+}
+
+/* .header-nav li{
+    display: inline;
+} */
+
+@media only screen and (min-width: 600px) {
+    .container{
+        
+        flex-direction: row;
+    }
+
+    .flex-item{
+        background-color: olivedrab;
+        margin: 4px;
+    }
+
+    .header-nav li{
+        display: inline;
+    }
+  }
